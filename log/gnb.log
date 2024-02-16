@@ -1,0 +1,13 @@
+UERANSIM v3.2.6
+[2023-12-22 16:29:31.593] [sctp] [info] Trying to establish SCTP connection... (192.168.70.132:38412)
+[2023-12-22 16:29:31.594] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
+[2023-12-22 16:29:31.617] [sctp] [info] SCTP connection established (192.168.70.132:38412)
+[2023-12-22 16:29:31.617] [sctp] [debug] SCTP association setup ascId[33]
+[2023-12-22 16:29:31.618] [ngap] [debug] Sending NG Setup Request
+[2023-12-22 16:29:31.638] [ngap] [debug] NG Setup Response received
+[2023-12-22 16:29:31.638] [ngap] [info] NG Setup procedure is successful
+[2023-12-22 16:29:36.915] [rrc] [debug] UE[1] new signal detected
+[2023-12-22 16:29:36.926] [rrc] [info] RRC Setup for UE[1]
+[2023-12-22 16:29:36.934] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-12-22 16:29:37.663] [ngap] [debug] Initial Context Setup Request received
+[2023-12-22 16:32:19.724] [rls] [debug] UE[1] signal lost

@@ -1,0 +1,4 @@
+zone "oai-ueransim.com" {
+    type master;
+    file "/etc/bind/zones/db.oai-ueransim.com";
+};
