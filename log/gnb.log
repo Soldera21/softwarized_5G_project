@@ -1,15 +1,15 @@
 UERANSIM v3.2.6
-[2024-02-18 19:12:53.679] [sctp] [info] Trying to establish SCTP connection... (192.168.70.132:38412)
-[2024-02-18 19:12:53.831] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
-[2024-02-18 19:12:53.993] [sctp] [info] SCTP connection established (192.168.70.132:38412)
-[2024-02-18 19:12:53.999] [sctp] [debug] SCTP association setup ascId[81]
-[2024-02-18 19:12:54.000] [ngap] [debug] Sending NG Setup Request
-[2024-02-18 19:12:54.461] [ngap] [debug] NG Setup Response received
-[2024-02-18 19:12:54.468] [ngap] [info] NG Setup procedure is successful
-[2024-02-18 19:12:59.093] [rrc] [debug] UE[1] new signal detected
-[2024-02-18 19:12:59.392] [rrc] [info] RRC Setup for UE[1]
-[2024-02-18 19:12:59.464] [ngap] [debug] Initial NAS message received from UE[1]
-[2024-02-18 19:14:50.578] [sctp] [debug] SCTP association shutdown (clientId: 2)
-[2024-02-18 19:14:50.582] [ngap] [error] Association terminated for AMF[2]
-[2024-02-18 19:14:50.582] [ngap] [debug] Removing AMF context[2]
-[2024-02-18 19:14:50.593] [sctp] [warning] Unhandled SCTP notification received
+[2024-02-18 22:51:43.815] [sctp] [info] Trying to establish SCTP connection... (192.168.70.132:38412)
+[2024-02-18 22:51:43.818] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
+[2024-02-18 22:51:44.008] [sctp] [info] SCTP connection established (192.168.70.132:38412)
+[2024-02-18 22:51:44.023] [sctp] [debug] SCTP association setup ascId[83]
+[2024-02-18 22:51:44.024] [ngap] [debug] Sending NG Setup Request
+[2024-02-18 22:51:44.497] [ngap] [debug] NG Setup Response received
+[2024-02-18 22:51:44.499] [ngap] [info] NG Setup procedure is successful
+[2024-02-18 22:51:48.824] [rrc] [debug] UE[1] new signal detected
+[2024-02-18 22:51:48.842] [rrc] [info] RRC Setup for UE[1]
+[2024-02-18 22:51:48.852] [ngap] [debug] Initial NAS message received from UE[1]
+[2024-02-18 22:51:49.628] [ngap] [debug] Initial Context Setup Request received
+[2024-02-18 22:54:04.147] [sctp] [debug] SCTP association shutdown (clientId: 2)
+[2024-02-18 22:54:04.149] [ngap] [error] Association terminated for AMF[2]
+[2024-02-18 22:54:04.149] [ngap] [debug] Removing AMF context[2]

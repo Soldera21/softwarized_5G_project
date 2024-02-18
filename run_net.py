@@ -195,8 +195,8 @@ try:
             "dns": ["192.168.70.160"],
         }
     )
-    net.addLink(ext_dn, s1, bw=1000, delay="50ms", intfName1="ext_dn-s1", intfName2="s1-ext_dn", params1={'ip': '192.168.70.150/24'})
-    net.addLink(upf, ext_dn, bw=1000, delay="1ms", intfName1="upf-ext_dn", intfName2="ext_dn-upf", params1={'ip': '192.168.73.144/24'}, params2={'ip': '192.168.73.145/24'})
+    net.addLink(ext_dn, s1, bw=1000, delay="1ms", intfName1="ext_dn-s1", intfName2="s1-ext_dn", params1={'ip': '192.168.70.150/24'})
+    net.addLink(upf, ext_dn, bw=1000, delay="50ms", intfName1="upf-ext_dn", intfName2="ext_dn-upf", params1={'ip': '192.168.73.144/24'}, params2={'ip': '192.168.73.145/24'})
 
     gnb = net.addDockerHost(
         "gnb",
@@ -207,7 +207,7 @@ try:
         }
     )
     net.addLink(gnb, s1, bw=1000, delay="1ms", intfName1="gnb-s1", intfName2="s1-gnb", params1={'ip': '192.168.70.156/24'})
-    net.addLink(upf, gnb, bw=1000, delay="1ms", params1={'ip': '192.168.72.144/24'}, params2={'ip': '192.168.72.141/24'})
+    net.addLink(upf, gnb, bw=1000, delay="20ms", params1={'ip': '192.168.72.144/24'}, params2={'ip': '192.168.72.141/24'})
 
     ue = net.addDockerHost(
         "ue",
