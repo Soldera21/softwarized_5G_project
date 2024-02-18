@@ -114,10 +114,10 @@ amf:
         - sst: 1
         - sst: 1
           sd: 000001 # in hex
-        - sst: 222
-          sd: 00007B # in hex
         - sst: 128
           sd: 000080 # in hex
+        - sst: 222
+          sd: 00007B # in hex
         - sst: 130
           sd: 000082 # in hex
   supported_integrity_algorithms:
@@ -126,5 +126,6 @@ amf:
   supported_encryption_algorithms:
     - "NEA1"
     - "NEA2"
+
 nssf:
   slice_config_path: /openair-nssf/etc/nssf_slice_config.yaml

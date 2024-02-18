@@ -11,7 +11,8 @@ configuration:
         nrfId: http://192.168.70.136:8080/nnrf-disc/v1/nf-instances
         nsiId: '11'
     - snssai:
-        sst: 1
+        sst: 222
+        sd: '123'
       nsiInformationList:
         nrfId: http://192.168.70.136:8080/nnrf-disc/v1/nf-instances
         nsiId: '12'
@@ -20,10 +21,10 @@ configuration:
         sd: '130'
       nsiInformationList:
         nrfId: http://192.168.70.137:8080/nnrf-disc/v1/nf-instances
-        nsiId: '12'
+        nsiId: '13'
     - snssai:
-        sst: 222
-        sd: '123'
+        sst: 129
+        sd: '129'
       nsiInformationList:
         nrfId: http://oai-cn5g-nrf-10.fr:8080/nnrf-disc/v1/nf-instances
         nsiId: '11'

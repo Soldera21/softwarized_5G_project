@@ -17,3 +17,5 @@ docker pull rfed/myueransim_v3-2-6
 
 docker tag rfed/myueransim_v3-2-6 rfed/ueransim:v3.2.6
 docker rmi rfed/myueransim_v3-2-6:latest
+
+docker build -f components/Dockerfile.dev_test -t dev_test .
