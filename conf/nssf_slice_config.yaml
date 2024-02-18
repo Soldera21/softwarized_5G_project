@@ -1,0 +1,65 @@
+# Reference:- TS 29.531 R16.0.0., Section- 6.1.6 Data Model 
+info:
+  version: 1.4.0
+  description: OAI-NSSF Release v1.4.0
+configuration:
+  nsiInfoList:
+    - snssai:
+        sst: 1
+      nsiInformationList:
+        nrfId: http://nrf.oai-ueransim.com:8080/nnrf-disc/v1/nf-instances
+        nsiId: '20'
+    - snssai:
+        sst: 1
+        sd: '1'
+      nsiInformationList:
+        nrfId: http://nrf.oai-ueransim.com:8080/nnrf-disc/v1/nf-instances
+        nsiId: '20'
+    - snssai:
+        sst: 222
+        sd: '123'
+      nsiInformationList:
+        nrfId: http://nrf.oai-ueransim.com:8080/nnrf-disc/v1/nf-instances
+        nsiId: '20'
+  taInfoList:
+    - tai:
+        plmnId:
+          mcc: '208'
+          mnc: '95'
+        tac: '0xa000'
+      supportedSnssaiList:
+      - sst: 1
+      - sst: 1
+        sd: 1
+      - sst: 222
+        sd: '123'
+  amfInfoList:
+    - targetAmfSet: amf.oai-ueransim.com
+      nrfAmfSet: http://nrf.oai-ueransim.com:8080/nnrf-disc/v1/nf-instances'
+      nrfAmfSetNfMgtUri: http://nrf.oai-ueransim.com:8080/nnrf-nfm/v1/nf-instances
+      amfList:
+        - nfId: 405e8251-cc5a-45dd-a494-efb9eaf1cd68
+          supportedNssaiAvailabilityData:
+              tai:
+                plmnId:
+                  mcc: 208
+                  mnc: 95
+                tac: 0xa000
+              supportedSnssaiList:
+                - sst: 1
+                - sst: 1
+                  sd: 1
+                - sst: 222
+                  sd: '123'
+              taiList:
+                - tai:
+                    plmnId:
+                      mcc: 208
+                      mnc: 95
+                    tac: 0xa000
+                  supportedSnssaiList:
+                    - sst: 1
+                    - sst: 1
+                      sd: 1
+                    - sst: 222
+                      sd: 123

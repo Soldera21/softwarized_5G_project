@@ -1,800 +1,543 @@
 UERANSIM v3.2.6
-[2023-12-22 16:29:36.906] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
-[2023-12-22 16:29:36.919] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
-[2023-12-22 16:29:36.919] [nas] [info] Selected plmn[208/95]
-[2023-12-22 16:29:36.920] [rrc] [info] Selected cell plmn[208/95] tac[40960] category[SUITABLE]
-[2023-12-22 16:29:36.920] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
-[2023-12-22 16:29:36.920] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
-[2023-12-22 16:29:36.920] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
-[2023-12-22 16:29:36.920] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:36.921] [nas] [debug] Sending Initial Registration
-[2023-12-22 16:29:36.923] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
-[2023-12-22 16:29:36.923] [rrc] [debug] Sending RRC Setup Request
-[2023-12-22 16:29:36.929] [rrc] [info] RRC connection established
-[2023-12-22 16:29:36.929] [rrc] [info] UE switches to state [RRC-CONNECTED]
-[2023-12-22 16:29:36.930] [nas] [info] UE switches to state [CM-CONNECTED]
-[2023-12-22 16:29:37.333] [nas] [debug] Authentication Request received
-[2023-12-22 16:29:37.536] [nas] [debug] Security Mode Command received
-[2023-12-22 16:29:37.536] [nas] [debug] Selected integrity[1] ciphering[1]
-[2023-12-22 16:29:37.666] [nas] [debug] Registration accept received
-[2023-12-22 16:29:37.667] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
-[2023-12-22 16:29:37.667] [nas] [debug] Sending Registration Complete
-[2023-12-22 16:29:37.667] [nas] [info] Initial Registration is successful
-[2023-12-22 16:29:37.668] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:37.668] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:37.668] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:37.669] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:37.669] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:37.669] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:38.081] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:38.300] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:39.109] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:39.110] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:39.111] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:39.111] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:39.370] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:40.212] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:40.213] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:40.259] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:41.319] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:41.319] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:41.372] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:41.597] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:41.598] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:41.648] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:42.420] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:42.420] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:42.484] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:43.523] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:43.524] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:43.599] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:44.624] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:44.624] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:44.665] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:45.725] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:45.725] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:45.770] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:46.826] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:46.827] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:46.898] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:47.927] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:47.927] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:47.992] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:49.028] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:49.029] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:49.083] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:50.129] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:50.129] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:50.192] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:51.230] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:51.231] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:51.298] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:51.596] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:51.597] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:51.647] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:52.331] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:52.331] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:52.392] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:53.432] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:53.433] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:53.492] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:53.936] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:29:53.936] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:53.995] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:54.533] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:54.534] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:54.535] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:54.535] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:54.602] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:54.651] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:55.634] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:55.636] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:55.643] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:55.644] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:55.680] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:55.724] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:55.938] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:29:55.938] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:55.974] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:56.735] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:56.735] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:56.736] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:56.736] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:56.736] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:56.737] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:56.795] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:56.834] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:57.837] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:57.837] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:57.837] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:57.838] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:57.894] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:57.934] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:58.938] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:58.953] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:58.953] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:29:58.953] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:29:59.060] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:29:59.089] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:00.039] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:00.039] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:00.040] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:00.040] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:00.114] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:00.165] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:01.141] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:01.142] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:01.142] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:01.145] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:01.201] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:01.232] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:01.600] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:01.600] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:01.600] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:01.601] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:01.670] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:01.715] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:02.242] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:02.243] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:02.243] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:02.243] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:02.302] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:02.335] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:03.343] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:03.343] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:03.344] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:03.344] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:03.405] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:03.443] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:04.444] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:04.446] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:04.447] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:04.447] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:04.511] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:04.544] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:05.546] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:05.546] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:05.547] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:05.547] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:05.614] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:05.642] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:06.647] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:06.647] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:06.647] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:06.648] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:06.694] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:06.727] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:07.749] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:07.749] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:07.749] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:07.749] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:07.791] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:07.821] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:08.850] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:08.850] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:08.851] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:08.851] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:08.889] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:08.926] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:09.951] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:09.951] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:09.952] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:09.952] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:09.997] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:10.031] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:11.053] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:11.053] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:11.054] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:11.054] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:11.100] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:11.136] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:11.600] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:11.601] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:11.601] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:11.602] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:11.652] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:11.708] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:12.155] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:12.155] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:12.156] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:12.156] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:12.202] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:12.237] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:13.022] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:30:13.023] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:13.061] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:13.256] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:13.256] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:13.256] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:13.257] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:13.257] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:13.257] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:13.302] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:13.334] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:14.358] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:14.358] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:14.359] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:14.359] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:14.403] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:14.440] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:15.460] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:15.460] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:15.461] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:15.461] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:15.503] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:15.533] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:16.561] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:16.564] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:16.565] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:16.573] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:16.752] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:17.019] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:17.662] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:17.663] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:17.663] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:17.667] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:17.757] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:17.822] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:18.763] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:18.763] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:18.763] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:18.764] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:18.829] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:18.867] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:19.864] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:19.866] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:19.866] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:19.867] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:19.933] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:19.971] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:20.965] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:20.965] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:20.966] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:20.967] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:21.025] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:21.057] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:21.600] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:21.600] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:21.601] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:21.601] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:21.678] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:21.715] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:22.066] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:22.066] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:22.066] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:22.067] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:22.117] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:22.162] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:23.167] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:23.167] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:23.167] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:23.168] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:23.217] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:23.243] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:24.268] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:24.268] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:24.268] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:24.270] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:24.324] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:24.365] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:25.369] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:25.369] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:25.369] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:25.370] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:25.416] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:25.456] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:26.470] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:26.474] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:26.476] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:26.477] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:26.542] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:26.578] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:27.571] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:27.571] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:27.572] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:27.572] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:27.639] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:27.668] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:28.672] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:28.672] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:28.672] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:28.673] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:28.718] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:28.752] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:29.773] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:29.773] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:29.773] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:29.774] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:29.819] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:29.849] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:30.045] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:30:30.046] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:30.101] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:30.874] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:30.874] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:30.875] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:30.875] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:30.876] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:30.876] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:30.923] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:30.969] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:31.603] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:31.604] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:31.604] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:31.604] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:31.656] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:31.687] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:31.975] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:31.975] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:31.976] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:31.978] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:32.031] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:32.063] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:33.076] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:33.076] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:33.076] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:33.077] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:33.126] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:33.173] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:34.177] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:34.177] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:34.177] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:34.177] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:34.216] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:34.248] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:35.278] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:35.279] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:35.279] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:35.280] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:35.339] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:35.367] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:36.379] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:36.379] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:36.380] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:36.380] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:36.454] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:36.500] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:37.480] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:37.480] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:37.481] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:37.481] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:37.515] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:37.553] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:38.581] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:38.581] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:38.581] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:38.581] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:38.635] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:38.667] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:39.682] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:39.684] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:39.684] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:39.684] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:39.746] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:39.787] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:40.783] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:40.783] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:40.784] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:40.784] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:40.840] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:40.888] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:41.603] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:41.603] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:41.604] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:41.604] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:41.659] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:41.688] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:41.885] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:41.885] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:41.885] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:41.886] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:41.944] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:41.976] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:42.986] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:42.986] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:42.987] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:42.987] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:43.032] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:43.069] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:44.087] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:44.087] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:44.088] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:44.089] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:44.174] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:44.218] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:45.192] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:45.193] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:45.194] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:45.200] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:45.342] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:45.404] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:46.297] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:46.340] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:46.346] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:46.350] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:46.649] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:47.067] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:30:47.067] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:47.135] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:47.398] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:47.398] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:47.398] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:47.399] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:47.439] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:47.467] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:48.499] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:48.499] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:48.500] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:48.500] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:48.566] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:48.596] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:49.600] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:49.600] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:49.601] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:49.601] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:49.698] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:49.780] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:50.701] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:50.701] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:50.701] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:50.702] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:50.764] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:50.819] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:51.607] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:51.608] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:51.609] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:51.609] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:51.727] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:51.797] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:51.803] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:51.812] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:51.816] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:51.823] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:51.924] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:52.000] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:52.917] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:52.921] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:52.922] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:52.923] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:53.028] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:53.098] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:54.018] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:54.019] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:54.020] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:54.022] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:54.094] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:54.138] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:55.122] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:55.123] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:55.125] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:55.127] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:55.177] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:55.205] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:56.220] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:56.220] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:56.220] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:56.221] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:56.317] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:56.421] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:57.359] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:57.369] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:57.372] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:57.378] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:57.626] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:57.730] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:58.460] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:58.460] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:58.461] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:58.461] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:58.546] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:58.586] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:59.561] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:59.563] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:59.563] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:30:59.564] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:30:59.711] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:30:59.750] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:00.663] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:00.663] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:00.664] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:00.665] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:00.746] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:00.793] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:01.607] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:01.607] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:01.607] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:01.608] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:01.669] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:01.710] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:01.764] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:01.765] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:01.765] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:01.766] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:01.817] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:01.862] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:02.865] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:02.866] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:02.866] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:02.866] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:02.921] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:02.972] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:03.089] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:31:03.090] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:03.137] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:03.966] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:03.966] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:03.966] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:03.967] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:03.967] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:03.968] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:04.016] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:04.059] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:05.067] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:05.067] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:05.068] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:05.068] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:05.190] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:05.256] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:06.168] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:06.168] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:06.169] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:06.169] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:06.242] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:06.284] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:07.269] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:07.269] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:07.269] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:07.269] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:07.323] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:07.355] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:08.370] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:08.370] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:08.371] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:08.371] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:08.429] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:08.487] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:09.471] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:09.471] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:09.471] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:09.471] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:09.519] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:09.565] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:10.572] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:10.573] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:10.574] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:10.575] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:10.639] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:10.674] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:11.607] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:11.607] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:11.608] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:11.608] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:11.671] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:11.674] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:11.675] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:11.712] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:11.743] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:12.775] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:12.775] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:12.775] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:12.776] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:12.833] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:12.876] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:13.876] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:13.876] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:13.877] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:13.877] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:13.950] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:13.995] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:14.977] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:14.993] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:14.997] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:15.006] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:15.118] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:15.212] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:16.078] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:16.078] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:16.079] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:16.080] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:16.163] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:16.202] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:17.179] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:17.180] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:17.184] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:17.185] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:17.243] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:17.291] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:18.280] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:18.282] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:18.282] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:18.283] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:18.337] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:18.382] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:19.381] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:19.382] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:19.382] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:19.383] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:19.445] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:19.485] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:20.108] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:31:20.108] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:20.178] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:20.482] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:20.483] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:20.484] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:20.484] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:20.485] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:20.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:20.538] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:20.580] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:21.584] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:21.584] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:21.584] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:21.585] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:21.733] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:21.972] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:22.746] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:22.748] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:22.749] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:22.751] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:22.904] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:22.958] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:23.847] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:23.850] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:23.851] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:23.851] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:23.929] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:23.956] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:24.948] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:24.948] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:24.949] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:24.949] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:25.020] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:25.055] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:26.049] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:26.050] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:26.050] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:26.050] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:26.111] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:26.141] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:27.152] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:27.152] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:27.152] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:27.153] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:27.225] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:27.255] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:28.253] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:28.253] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:28.253] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:28.254] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:28.317] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:28.400] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:29.354] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:29.354] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:29.355] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:29.355] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:29.417] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:29.473] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:30.455] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:30.456] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:30.457] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:30.457] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:30.543] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:30.590] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:31.556] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:31.556] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:31.557] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:31.557] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:31.623] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:31.662] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:32.657] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:32.658] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:32.658] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:32.659] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:32.713] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:32.756] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:33.758] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:33.759] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:33.760] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:33.760] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:33.815] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:33.853] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:34.859] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:34.859] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:34.860] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:34.860] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:34.914] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:34.963] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:35.960] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:35.960] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:35.961] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:35.962] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:36.015] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:36.058] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:37.061] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:37.062] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:37.062] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:37.062] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:37.125] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:37.172] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:37.219] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:31:37.221] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:37.278] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:38.163] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:38.163] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:38.163] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:38.164] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:38.164] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:38.164] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:38.216] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:38.274] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:39.265] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:39.265] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:39.265] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:39.265] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:39.313] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:39.353] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:40.366] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:40.366] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:40.367] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:40.367] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:40.429] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:40.475] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:41.468] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:41.468] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:41.469] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:41.469] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:41.746] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:42.569] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:42.569] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:42.635] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:43.670] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:43.671] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:43.736] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:44.772] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:44.773] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:44.848] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:45.873] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:45.873] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:45.937] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:46.975] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:46.975] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:47.039] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:48.076] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:48.077] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:48.119] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:49.177] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:49.178] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:49.263] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:50.278] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:50.278] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:50.343] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:51.379] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:51.379] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:51.431] [nas] [error] PDU Session Establishment Reject received [?]
-[2023-12-22 16:31:51.613] [nas] [debug] Sending PDU Session Establishment Request
-[2023-12-22 16:31:51.614] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:54.238] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:31:54.238] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:31:58.252] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:31:58.253] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:32:08.265] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:32:08.266] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:32:10.268] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:32:10.268] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:32:14.274] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:32:14.274] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
-[2023-12-22 16:32:19.739] [rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
-[2023-12-22 16:32:19.740] [nas] [error] Radio link failure detected
-[2023-12-22 16:32:19.741] [nas] [info] UE switches to state [CM-IDLE]
-[2023-12-22 16:32:19.741] [nas] [info] UE switches to state [MM-REGISTERED/PS]
-[2023-12-22 16:32:19.741] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
-[2023-12-22 16:32:19.741] [nas] [error] PLMN selection failure, no cells in coverage
-[2023-12-22 16:32:22.013] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
-[2023-12-22 16:32:22.016] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
-[2023-12-22 16:32:22.211] [nas] [error] PLMN selection failure, no cells in coverage
-[2023-12-22 16:32:24.297] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
-[2023-12-22 16:32:24.297] [nas] [error] UAC access attempt is barred for identity[0], category[MO_sig]
-[2023-12-22 16:32:24.413] [nas] [error] PLMN selection failure, no cells in coverage
-terminate called after throwing an instance of 'LibError'
-  what():  sendto failed:  Network is unreachable
+[2024-02-18 14:58:26.972] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2024-02-18 14:58:26.992] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2024-02-18 14:58:26.993] [nas] [info] Selected plmn[208/95]
+[2024-02-18 14:58:26.994] [rrc] [info] Selected cell plmn[208/95] tac[40960] category[SUITABLE]
+[2024-02-18 14:58:26.994] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2024-02-18 14:58:26.995] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2024-02-18 14:58:26.996] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2024-02-18 14:58:27.014] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:27.015] [nas] [debug] Sending Initial Registration
+[2024-02-18 14:58:27.022] [rrc] [debug] Sending RRC Setup Request
+[2024-02-18 14:58:27.022] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2024-02-18 14:58:27.036] [rrc] [info] RRC connection established
+[2024-02-18 14:58:27.037] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2024-02-18 14:58:27.037] [nas] [info] UE switches to state [CM-CONNECTED]
+[2024-02-18 14:58:27.659] [nas] [debug] Authentication Request received
+[2024-02-18 14:58:27.909] [nas] [debug] Security Mode Command received
+[2024-02-18 14:58:27.910] [nas] [debug] Selected integrity[1] ciphering[1]
+[2024-02-18 14:58:28.079] [nas] [debug] Registration accept received
+[2024-02-18 14:58:28.079] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2024-02-18 14:58:28.079] [nas] [debug] Sending Registration Complete
+[2024-02-18 14:58:28.081] [nas] [info] Initial Registration is successful
+[2024-02-18 14:58:28.081] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:28.081] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:28.082] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:28.083] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:28.084] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:28.086] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:28.632] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:28.841] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:29.177] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:29.183] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:29.184] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:29.184] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:29.278] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:29.333] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:30.278] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:30.279] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:30.280] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:30.281] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:30.387] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:30.465] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:31.387] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:31.392] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:31.393] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:31.395] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:31.481] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:31.481] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:31.482] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:31.520] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:31.585] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:32.505] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:32.620] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2024-02-18 14:58:32.620] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:32.676] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:32.913] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:33.606] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:33.608] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:33.683] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:34.711] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:34.717] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:34.806] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:35.812] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:35.813] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:35.873] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:36.913] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:36.914] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:37.036] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:38.014] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:38.015] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:38.085] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:39.115] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:39.116] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:39.181] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:40.216] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:40.216] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:40.283] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:41.322] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:41.346] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:41.402] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:41.484] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:41.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:41.548] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:42.425] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:42.427] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:42.614] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:43.529] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:43.533] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:43.612] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:44.630] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:44.630] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:44.715] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:45.051] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:58:45.051] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:45.121] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:45.731] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:45.731] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:45.732] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:45.733] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:45.791] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:45.828] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:46.833] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:46.833] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:46.834] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:46.835] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:46.923] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:46.965] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:47.933] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:47.933] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:47.934] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:47.934] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:47.996] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:48.043] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:49.034] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:49.034] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:49.035] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:49.035] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:49.055] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:58:49.056] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:49.115] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:49.181] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:50.135] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:50.135] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:50.136] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:50.136] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:50.202] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:50.248] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:51.236] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:51.236] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:51.237] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:51.237] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:51.297] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:51.351] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:51.481] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:51.482] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:51.482] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:51.483] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:51.545] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:51.594] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:52.338] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:52.339] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:52.340] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:52.341] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:52.427] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:52.460] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:53.439] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:53.439] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:53.440] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:53.441] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:53.507] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:53.540] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:54.540] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:54.541] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:54.541] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:54.542] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:54.609] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:54.643] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:55.641] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:55.642] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:55.643] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:55.643] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:55.746] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:55.798] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:56.742] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:56.742] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:56.743] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:56.744] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:56.804] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:56.871] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:57.843] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:57.844] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:57.844] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:57.845] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:57.922] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:57.973] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:58.944] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:58.944] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:58.945] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:58:58.945] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:58:59.024] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:58:59.088] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:00.045] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:00.046] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:00.046] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:00.046] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:00.123] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:00.170] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:01.146] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:01.146] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:01.147] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:01.147] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:01.220] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:01.260] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:01.483] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:01.483] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:01.484] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:01.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:01.544] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:01.602] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:02.247] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:02.248] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:02.248] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:02.249] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:02.302] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:02.339] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:03.348] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:03.348] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:03.349] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:03.349] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:03.417] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:03.458] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:04.449] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:04.449] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:04.450] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:04.450] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:04.506] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:04.571] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:05.073] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:59:05.075] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:05.124] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:05.550] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:05.551] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:05.551] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:05.552] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:05.553] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:05.553] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:05.602] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:05.641] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:06.651] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:06.652] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:06.653] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:06.653] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:06.712] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:06.745] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:07.752] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:07.752] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:07.753] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:07.753] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:07.810] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:07.844] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:08.853] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:08.854] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:08.854] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:08.855] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:08.902] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:08.941] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:09.954] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:09.954] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:09.955] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:09.955] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:10.022] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:10.062] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:11.055] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:11.055] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:11.056] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:11.057] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:11.153] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:11.203] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:11.484] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:11.484] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:11.485] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:11.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:11.550] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:11.588] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:12.156] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:12.156] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:12.157] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:12.157] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:12.218] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:12.271] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:13.257] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:13.258] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:13.259] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:13.259] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:13.544] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:14.358] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:14.358] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:14.432] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:15.459] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:15.459] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:15.514] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:16.560] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:16.562] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:16.623] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:17.661] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:17.661] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:17.739] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:18.762] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:18.763] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:18.838] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:19.863] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:19.864] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:19.918] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:20.964] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:20.965] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:21.054] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:21.484] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:21.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:21.544] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:22.065] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:22.065] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:22.103] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:59:22.104] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:22.145] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:22.206] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:23.166] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:23.166] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:23.167] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:23.167] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:23.231] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:23.283] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:24.267] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:24.268] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:24.268] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:24.269] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:24.323] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:24.363] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:25.368] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:25.368] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:25.369] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:25.369] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:25.443] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:25.474] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:26.469] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:26.469] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:26.470] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:26.470] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:26.529] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:26.563] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:27.571] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:27.573] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:27.576] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:27.577] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:27.655] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:27.690] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:28.672] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:28.673] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:28.674] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:28.675] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:28.728] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:28.762] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:29.773] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:29.773] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:29.774] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:29.774] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:29.847] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:29.885] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:30.112] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:59:30.113] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:30.172] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:30.896] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:30.897] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:30.920] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:30.950] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:30.974] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:30.986] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:31.270] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:31.476] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:31.487] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:31.489] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:31.490] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:31.497] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:31.736] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:31.835] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:31.997] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:31.997] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:32.000] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:32.001] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:32.081] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:32.127] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:33.098] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:33.098] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:33.100] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:33.106] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:33.197] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:33.251] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:34.201] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:34.203] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:34.205] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:34.205] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:34.335] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:34.396] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:35.302] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:35.302] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:35.303] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:35.304] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:35.360] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:35.397] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:36.403] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:36.403] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:36.404] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:36.405] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:36.463] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:36.502] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:37.504] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:37.504] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:37.505] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:37.505] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:37.598] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:37.667] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:38.606] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:38.608] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:38.609] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:38.611] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:38.711] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:38.776] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:39.708] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:39.709] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:39.709] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:39.710] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:39.778] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:39.817] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:40.809] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:40.809] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:40.810] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:40.811] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:41.090] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:41.486] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:41.486] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:41.576] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:41.910] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:41.910] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:41.971] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:43.011] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:43.011] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:43.072] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:44.112] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:44.112] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:44.190] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:45.213] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:45.213] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:45.258] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:46.314] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:46.315] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:46.369] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:47.146] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:59:47.147] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:47.210] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:47.415] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:47.416] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:47.417] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:47.417] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:47.469] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:47.513] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:48.516] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:48.516] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:48.517] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:48.517] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:48.615] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:48.724] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:49.645] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:49.650] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:49.651] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:49.651] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:49.691] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:49.727] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:50.747] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:50.747] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:50.749] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:50.749] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:50.825] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:50.859] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:51.487] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:51.488] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:51.488] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:51.489] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:51.549] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:51.588] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:51.848] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:51.848] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:51.849] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:51.849] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:51.904] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:51.942] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:52.951] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:52.951] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:52.952] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:52.952] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:53.010] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:53.047] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:54.052] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:54.052] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:54.053] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:54.054] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:54.129] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:54.181] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:55.153] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:55.153] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:55.154] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:55.154] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:55.206] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:55.254] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:56.255] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:56.256] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:56.257] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:56.257] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:56.327] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:56.362] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:57.158] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2024-02-18 14:59:57.158] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:57.227] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:57.356] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:57.357] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:57.357] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:57.357] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:57.358] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:57.358] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:57.428] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:57.460] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:58.460] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:58.464] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:58.465] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:58.466] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:58.584] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:58.642] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 14:59:59.639] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:59.673] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 14:59:59.796] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 14:59:59.810] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:00.253] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:00.431] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:00.740] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:00.740] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:00.741] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:00.742] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:00.843] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:00.908] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:01.510] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:01.512] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:01.514] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:01.514] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:01.653] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:01.729] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:01.841] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:01.842] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:01.843] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:01.843] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:01.925] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:02.109] [nas] [error] PDU Session Establishment Reject received [?]
+[2024-02-18 15:00:02.942] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:02.943] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2024-02-18 15:00:02.943] [nas] [debug] Sending PDU Session Establishment Request
+[2024-02-18 15:00:02.944] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]

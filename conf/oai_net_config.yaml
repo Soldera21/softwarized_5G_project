@@ -80,6 +80,12 @@ nfs:
       port: 8080
       api_version: v1
       interface_name: ausf-s1
+  nssf:
+    host: nssf.oai-ueransim.com
+    sbi:
+      port: 8080
+      api_version: v1
+      interface_name: nssf-s1
   nrf:
     host: nrf.oai-ueransim.com
     sbi:
@@ -202,6 +208,9 @@ smf:
         5qi: 9
         session_ambr_ul: "50Mbps"
         session_ambr_dl: "100Mbps"
+
+nssf:
+  slice_config_path: /openair-nssf/etc/nssf_slice_config.yaml
 
 ## DNN configuration
 dnns:

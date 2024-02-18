@@ -15,6 +15,7 @@ ns1.oai-ueransim.com.          IN      A      192.168.70.160
 ; hosts - A records
 mysql.oai-ueransim.com.       IN        A         192.168.70.131
 nrf.oai-ueransim.com.       IN        A         192.168.70.130
+nssf.oai-ueransim.com.       IN        A         192.168.70.134
 udr.oai-ueransim.com.       IN        A         192.168.70.136
 udm.oai-ueransim.com.       IN        A         192.168.70.137
 ausf.oai-ueransim.com.       IN        A         192.168.70.138
